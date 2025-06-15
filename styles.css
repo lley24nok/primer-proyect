@@ -1,0 +1,98 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f2f5;
+}
+
+/* Estilos para las letras del título */
+.letras {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.letras h1 {
+    color: #1a73e8;
+    font-size: 2.5em;
+}
+
+hr {
+    width: 50%;
+    border: 1px solid #1a73e8;
+}
+
+/* Estilos para el contenido */
+.contenido {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contenido h2 {
+    color: #202124;
+}
+
+/* Estilos para el formulario */
+.formulario {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.formulario p {
+    margin: 15px 0;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+    color: #5f6368;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.formulario input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #1557b0;
+}
+
+/* Estilos para la sección "sobre mi" */
+.sobre-mi {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.sobre-mi h2 {
+    color: #202124;
+    margin-bottom: 15px;
+}
+
+.sobre-mi p {
+    color: #5f6368;
+    line-height: 1.5;
+}
