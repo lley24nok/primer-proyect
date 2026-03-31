@@ -3,53 +3,31 @@
     
     <head>
         <title>pagina de registro</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
 
-
-        <div class="letras">
-            <h1>welcome</h1>
-            <hr>
-        </div>
-
-
-
-        <div class="contenido">
-            <h2>pagina de registro</h2>
-            <p>por favor, rellene el formulario para registrarse</p>
-        </div>
-
+        <header>
+            <h1>formulario</h1>
+            <p>registrese porfa</p>
+        </header>
+        
+    <main>
         <div class="formulario">
             <form>
+                    <label for="nombre">nombre</label><br>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required><br><br>
 
-                 <p>
-                    <label>nombre:</label>
-                    <input type="text" required>
-                 </p>
+                    <label for="email">Correo</label><br>
+                    <input type="email" name="Correo" id="email" placeholder="Correo"  required><br><br>
 
-                 <p>
-                    <label>correo</label>
-                    <input type=email required>
-                 </p>
-                 <p>
-                    <label>contraseña:</label>
-                    <input type="password" required>
-                 </p>
-                 <p>
-                    <input type="Submit" value="registrar">
-                 </p>
+                    <label for="mensaje">mensaje</label><br>
+                    <textarea name="mensaje" id="mensaje" rows="5" cols="30" placeholder="Mensaje"></textarea><br><br>
+
+                    <input class="btn" type="Submit" value="registrar">
             </form>
-
         </div>
-
-        <div class="sobre mi">
-            <h2>sobre mi</h2>
-            <p>soy un estudiante de programacion, me gusta aprender cosas nuevas y mejorar mis habilidades.</p>
-            <p>este es un proyecto de prueba para aprender a crear paginas web.</p>
-            <p>gracias por visitar mi pagina.</p>
-        </div>
-        
+    </main>
     </body>
 
 </html>
