@@ -1,45 +1,42 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #f0f2f5;
+body{
+    font-family: Arial,sans-serif;
+    background-color: #edf2f7;
+    margin: 0px;
 }
 
 header{
-    font-size: 19px;
+    font-size: 17px;
     text-align: center;
-    color: white;
-    background-color: #1a73e8;
+    background-color: #dedede;
     padding: 20px;
 }
 
-article {
-    max-width: 400px;
-    margin: 18% auto;
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
-}
-
-
-article {
+article{
+    text-align: center;
     display: block;
-    margin-bottom: 6px;
-    color: #5f6368;
+    padding: 20px;
+    margin:  18% auto;
+    background-color: #ffff;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow:  0 0 8px rgb(0, 0, 0.8);
 }
 
 .nombres,
-.Correos {
-    width: 100%;
+.correos,
+.contraseñas{
+    margin: 8px auto;
+    display: block;
+    border: none;
+    background-color:  rgb(212, 219, 226);
+    text-align: center;
     padding: 8px;
-    border: 1px solid #dadce0;
-    border-radius: 4px;
-    font-size: 16px;
+    background-color: solid 1px #e2e8f0;
 }
 
-.btn {
-    background-color: #1557b0;
-    width: 100%;
+.btn{
+    background-color: #5b6c82;
+    width: 60%;
     padding: 10px;
     color: white;
     border: none;
